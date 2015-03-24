@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:jessie
 MAINTAINER Adam Lindberg <hello@alind.io>
 
 # Make apt-get happy
