@@ -15,7 +15,7 @@ FROM eproxus/erlang-base
 
 ADD myrelease-0.0.1.tar.gz /opt/myrelease/
 
-ENTRYPOINT ["/opt/myrelease/bin/myrelease", "console"]
+CMD ["/opt/myrelease/bin/myrelease", "console"]
 ```
 
 Running that image will drop you directly into the console of your Erlang release.
