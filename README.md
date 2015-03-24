@@ -2,7 +2,7 @@
 
 This is a minimal Docker image that contains the `erlang-base` installation from [Erlang Solutions][1]. It clocks in at 104.9 Mb  and cointains nothing more than the Debian base image plus the `erlang-base` package. It is ideal for running an Erlang or Elixir release without the need to install any additional dependencies.
 
-# Adding an Erlang Or Elixir App
+# Adding an Erlang or Elixir App
 
 This image can be used to install an Erlang or Elixir release directly. You don't need to include the Erlang Runtime System (ERTS) into the release since it is provided by the `erlang-base` package. For example, using [Relx][2] you can generate the release with the flag `--include-erts false` or the `relx.config` directive `{include_erts, false}`. You also do not need to install the `elixir` package if you have created an Erlang release from your Elixir project. Your Elixir apps automatically depend on Elixir by default and will pull in the relevant Elixir components into your release.
 
