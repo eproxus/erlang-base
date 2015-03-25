@@ -1,6 +1,6 @@
 # Minimal Erlang Docker Image
 
-This is a minimal Docker image that contains the `erlang-base` installation from [Erlang Solutions][1]. It clocks in at 104.9 Mb  and cointains nothing more than the Debian base image plus the `erlang-base` package. It is ideal for running an Erlang or Elixir release without the need to install any additional dependencies.
+This is a minimal Docker image that contains the `erlang-base` installation from [Erlang Solutions][1]. It clocks in at 104.9 Mb  and contains nothing more than the Debian base image plus the `erlang-base` package. It is ideal for running an Erlang or Elixir release without the need to install any additional dependencies.
 
 # Adding an Erlang or Elixir App
 
