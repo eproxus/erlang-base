@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:wheezy
 MAINTAINER Adam Lindberg <hello@alind.io>
 
 # Make apt-get happy
