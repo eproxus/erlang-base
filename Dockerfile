@@ -21,4 +21,3 @@ RUN \
     # Clean up
     apt-get clean autoclean && \
     rm -rf /var/lib/apt/lists/*
-
