@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM debian:jessie
 MAINTAINER Adam Lindberg <hello@alind.io>
 
 # Make apt-get happy
@@ -12,7 +12,7 @@ RUN \
     apt-get update && \
     apt-get install -y wget && \
     wget -qO- http://packages.erlang-solutions.com/debian/erlang_solutions.asc | apt-key add - && \
-    echo "deb http://packages.erlang-solutions.com/debian wheezy contrib" >> /etc/apt/sources.list && \
+    echo "deb http://packages.erlang-solutions.com/debian jessie contrib" >> /etc/apt/sources.list && \
     apt-get purge -y wget && \
     apt-get autoremove -y && \
     # Install Erlang base
