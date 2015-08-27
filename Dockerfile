@@ -17,7 +17,7 @@ RUN \
     apt-get autoremove -y && \
     # Install Erlang base
     apt-get update && \
-    apt-get install -y erlang-base=1:17.5 && \
+    apt-get install -y erlang-base=1:18.0 && \
     # Clean up
     apt-get clean autoclean && \
     rm -rf /var/lib/apt/lists/*
